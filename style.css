@@ -55,7 +55,7 @@ a.dd:before, a.dd:after, a.dd > span:before, a.dd > span:after {
     width: 100%;
     height: 100%;
     border-style: solid;
-    border-color: #0883a4;
+    border-color: black;
   }
   .effect-2:before {
     border-width: 2px 0 2px 0;
@@ -69,3 +69,33 @@ a.dd:before, a.dd:after, a.dd > span:before, a.dd > span:after {
     transform: scale(1, 1);
   }
   
+.borblack {
+  border-color: black;
+}
+
+.footerhover:hover{
+  animation: bounce .3s infinite alternate;
+}
+
+@keyframes bounce{
+  to { transform: scale(1.2);}
+}
+
+body {
+  background-color: grey;
+}
+
+.btn-primary {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  display:inline-block;
+  transition: 3s;
+
+}
+
+
+btn-primary:hover {
+background-color: red;
+transition: 1s;
+}

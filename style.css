@@ -99,3 +99,7 @@ btn-primary:hover {
 background-color: red;
 transition: 1s;
 }
+
+.gallerycolor {
+  color: black;
+}
